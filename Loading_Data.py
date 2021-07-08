@@ -70,3 +70,5 @@ for epoch in range(nb_epochs + 1):
         optimizer.step()
 
         print('Epoch {:4d}/{} Batch {}/{} Cost: {:.6f}'.format(epoch, nb_epochs, batch_idx+1, len(dataloader), cost.item()))
+
+        
