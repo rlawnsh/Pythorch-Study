@@ -4,3 +4,6 @@
 - 2. Linear regression
 - 3. Multivariate Linear Regression
 - 4. Loading Data
+- 5. Logistic Regression
+- 6. Softmax_Classification
+- 7. Tips
