@@ -7,4 +7,5 @@
 - 5. Logistic Regression
 - 6. Softmax_Classification
 - 7. Tips
-- 8. MNIST_Introduction
+- 7-1. MNIST_Introduction
+- 8. Perceptron
