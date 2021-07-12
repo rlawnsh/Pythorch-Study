@@ -9,7 +9,11 @@ Backpropagation - 우리가 예측 했던 값과 실제 결과 값의 차이를 
 
 import torch
 
-device = "cpu"
+device = "cuda"
+
+torch.manual_seed(777)
+if device == 'cuda':
+    torch.cuda.manual_seed_all(777)
 
 X = torch.FloatTensor([[0, 0], [0, 1], [1, 0], [1, 1]]).to(device)
 Y = torch.FloatTensor([[0], [1], [1], [0]]).to(device)
@@ -26,7 +30,6 @@ def sigmoid(x):
 def sigmoid_prime(x):
     return sigmoid(x) * (1 - sigmoid(x))
 
-learning_rate = 1
 for step in range(10001):
     # forward
     l1 = torch.add(torch.matmul(X, w1), b1)
@@ -52,6 +55,8 @@ for step in range(10001):
     d_b1 = d_l1
     d_w1 = torch.matmul(torch.transpose(X, 0, 1), d_b1)
 
+
+    learning_rate = 0.1
     # Weight update
     w1 = w1 - learning_rate * d_w1
     b1 = b1 - learning_rate * torch.mean(d_b1, 0)
