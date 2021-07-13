@@ -8,4 +8,8 @@
 - 6. Softmax_Classification
 - 7. Tips
 - 7-1. MNIST_Introduction
-- 8. Perceptron
+- 8. Perceptron, Perceptron(xor-nn)
+- 9. ReLU
+- 9~1. Weight_initialization
+- 9~2. Dropout
+- 9~3. Batch_Normalization
