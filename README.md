@@ -19,4 +19,5 @@
 - [x] 9~2. Dropout
 - [x] 9~3. Batch_Normalization
 - [x] Project A. Fashion MNIST Classifier
+
 ![dnn_submission](dnn_submission.png)
