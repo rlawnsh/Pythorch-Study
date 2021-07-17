@@ -13,6 +13,7 @@
 - [x] 7-1. MNIST_Introduction
 
 ### Part 2. Deep Neural Network
+
 - [x] 8. Perceptron, Perceptron(xor-nn)
 - [x] 9. ReLU
 - [x] 9~1. Weight_initialization
@@ -21,3 +22,7 @@
 - [x] Project A. Fashion MNIST Classifier
 
 ![dnn_submission](dnn_submission.png)
+
+### Part 3. Convolutional Neural Network
+
+- [x] 10~1. Convolution
