@@ -26,3 +26,4 @@
 ### Part 3. Convolutional Neural Network
 
 - [x] 10~1. Convolution
+- [x] 10~2. Mnist CNN
