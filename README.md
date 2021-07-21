@@ -27,3 +27,4 @@
 
 - [x] 10~1. Convolution
 - [x] 10~2. Mnist CNN
+- [x] 10~3. Visdom
